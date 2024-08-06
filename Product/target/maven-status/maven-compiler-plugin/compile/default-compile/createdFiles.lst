@@ -1,1 +1,4 @@
 com\barchain\product\ProductApplication.class
+com\barchain\product\repository\ProductRepository.class
+com\barchain\product\controller\ProductRestController.class
+com\barchain\product\entities\Product.class

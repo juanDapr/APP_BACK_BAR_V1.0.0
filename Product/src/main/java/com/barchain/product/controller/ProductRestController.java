@@ -47,6 +47,7 @@ public class ProductRestController {
             find.setCode(input.getCode());
             find.setName(input.getCode());
             find.setPrice(input.getPrice());
+            find.setDescription(input.getDescription());
         }
         Product save = ProductRepository.save(find);
         return ResponseEntity.ok(save);
